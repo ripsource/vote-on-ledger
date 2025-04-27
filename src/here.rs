@@ -33,7 +33,7 @@ mod here {
                 here_component: component,
                 rev: FungibleVault::new(XRD),
                 owner,
-                cost: dec!(420),
+                cost: dec!(69),
                 vote_cost: dec!(6.9),
             }
             .instantiate()
