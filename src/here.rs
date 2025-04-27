@@ -50,7 +50,7 @@ mod here {
                     "name" => "Here Here".to_owned(), locked;
                     "description" => "Will the ayes or the noes have it?".to_owned(), locked;
                     "dapp_definition" => dapp_deff, locked;
-                    "icon_url" => Url::of(""), locked;
+                    "icon_url" => Url::of("https://e3.365dm.com/23/09/2048x1152/skynews-john-bercow-speaker_6293239.jpg"), locked;
                 }
             ))
             .globalize()
@@ -108,7 +108,12 @@ mod here {
                 "Will the ayes or the noes have it?".to_string(),
             );
 
-            dapp_def_account.set_metadata("icon_url", Url::of(""));
+            dapp_def_account.set_metadata(
+                "icon_url",
+                Url::of(
+                    "https://e3.365dm.com/23/09/2048x1152/skynews-john-bercow-speaker_6293239.jpg",
+                ),
+            );
 
             let dapp_def_address = GlobalAddress::from(dapp_def_account.address());
 

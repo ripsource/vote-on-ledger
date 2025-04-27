@@ -55,7 +55,7 @@ mod aye {
                     "name" => "Here Here".to_owned(), locked;
                     "description" => "Will the ayes or the noes have it?".to_owned(), locked;
                     "dapp_definition" => dapp_deff, locked;
-                    "icon_url" => Url::of(""), locked;
+                    "icon_url" => Url::of("https://e3.365dm.com/23/09/2048x1152/skynews-john-bercow-speaker_6293239.jpg"), locked;
                 }
             ))
             .globalize()
